@@ -46,3 +46,23 @@ signal is sent to on a redis queue -> read message -> publish it on nats channel
 
 get_nats side :
 message is published on foo channel -> unqueue the message -> print the message
+
+
+Annex documations consulted :
+
+Doc nats :
+https://www.scaleway.com/en/docs/nats/reference-content/nats-overview/
+https://www.scaleway.com/en/nats/sla/ 
+https://nats-io.github.io/nats.py/
+
+
+Signal Django :
+
+https://docs.djangoproject.com/en/5.2/topics/signals/
+
+
+
+Wsgi vs asgi :
+https://www.geeksforgeeks.org/python/difference-between-asgi-and-wsgi-in-django/
+
+
