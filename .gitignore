@@ -1,0 +1,20 @@
+# Virtual environments for Python and JavaScript
+venv/
+.venv/
+jsenv/
+.jsenv/
+
+# Python compiled files and caches
+*.pyc
+*/*.pyc
+*/__pycache__/
+*/*/__pycache__/
+
+
+# VS Code settings exept settings.json and extensions.json
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# MacOS system files
+.DS_Store
