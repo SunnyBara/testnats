@@ -45,8 +45,10 @@ send_nats side :
 signal is sent to on a redis queue -> read message -> publish it on nats channel
 
 get_nats side :
-message is published on foo channel -> unqueue the message -> print the message
+message is published on foo channel -> read the message -> print the message
 
+
+I don't use redis as a classic way, maybe something could do the async worker jobs better than this (redis stream, celery task )?
 
 Annex documations consulted :
 
