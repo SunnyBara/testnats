@@ -68,3 +68,4 @@ Wsgi vs asgi :
 https://www.geeksforgeeks.org/python/difference-between-asgi-and-wsgi-in-django/
 
 
+gunicorn test_project.asgi:application -w 4 -k test_project.custom_uvicorn_worker.UvicornWorker
