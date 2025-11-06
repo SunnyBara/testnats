@@ -6,15 +6,18 @@
 </head>
 <body>
 
-<h1>Hello World!</h1>
-<p>Welcome to my first Django project!</p>
 
-<form action="/test/" method="POST">
+{% if message %}
+<div> {{message}}</div>
+{% endif %}
+
+<div>Create a Geo Shape</div>
+<form action="/geo/create/" method="POST">
     {% csrf_token %}
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
-    <label for="password">Password</label>
-    <input type="text" id="password" name="password" required>
+    <label for="color">Color</label>
+    <input type="text" id="color" name="color" required>
     <button type="submit">Submit</button>
 </form>
 

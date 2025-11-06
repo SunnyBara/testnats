@@ -10,14 +10,80 @@ jsenv/
 */__pycache__/
 */*/__pycache__/
 
+# SQLite database
+db.sqlite3
+
+# Media files
+media/
+
+# Backup files
+backups/
 
 # VS Code settings exept settings.json and extensions.json
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 
+# Node.js dependencies
+node_modules
+
+# Log files
+*.log
+logs/
+service/
+backend/logs/
+
+# Run files
+runs/
+
+# Redis dump
+dump.rdb
+
+# SQL files
+*.sql
+
+# NPM lock files
+*.npm
+
+# Github Actions config
+act.yml
+
+# Distribution files
+dist/
+
+# Static files
+/static/
+
 # MacOS system files
 .DS_Store
 
-#db
-db.squlite3
+# Nationality generated files
+nationality/
+
+# SSL certificates
+cert.pem
+key.pem
+
+# _draft
+draft/
+
+# eslint cache
+.eslintcache
+
+# Poetry cache
+.cache/
+
+# Docker related files
+requirements-dev.txt
+requirements-dev.removal.txt
+
+# .secrets
+.secrets
+ovh.ini
+
+# pnpm
+.pnpm-store/
+
+# Test files
+.pytest_cache/
+.hypothesis/

@@ -18,4 +18,13 @@ Including another URLconf
 from django.urls import path
 from . import views
 
-urlpatterns = [path("test/", views.handler)]
+urlpatterns = [
+    path('geo/update/', views.handler),
+    path('geo/', views.getGeo),
+    path('geo/create/', views.createGeo),
+    path('test/', views.createUser),
+    path('login/', views.login_view),
+    path('user/', views.user_view),
+    path('endpoint/', views.mocktest),
+    path('nats/auth/', views.nats_auth),
+]

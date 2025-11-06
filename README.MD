@@ -54,8 +54,9 @@ Annex documations consulted :
 
 Doc nats :
 https://www.scaleway.com/en/docs/nats/reference-content/nats-overview/
-https://www.scaleway.com/en/nats/sla/ 
-https://nats-io.github.io/nats.py/
+https://www.scaleway.com/en/nats/sla/
+https://nats-io.github.io/nats.py/ //set up back
+https://github.com/nats-io/nats.ws //set up front
 
 
 Signal Django :
